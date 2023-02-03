@@ -1,7 +1,7 @@
 {
     "rewrites": [
         {
-            "source": "^/replicateApi",
+            "source": "/replicateApi",
             "destination": "https://api.replicate.com/v1/predictions"
         },
         
