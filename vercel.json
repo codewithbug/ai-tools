@@ -6,7 +6,7 @@
         },
         
         {
-            "source": "api/:data",
+            "source": "/api/:data",
             "destination": "https://api.replicate.com/v1/predictions/:data"
         }
      ]
