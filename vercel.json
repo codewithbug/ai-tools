@@ -3,6 +3,16 @@
         {
             "source": "api",
             "destination": "https://api.replicate.com/v1/predictions"
+        },
+        
+        {
+            "source": "api/",
+            "destination": "https://api.replicate.com/v1/predictions/"
+        },
+        
+        {
+            "source": "api//",
+            "destination": "https://api.replicate.com/v1/predictions/"
         }
     ]
 
