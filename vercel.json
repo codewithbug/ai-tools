@@ -1,12 +1,12 @@
 {
     "rewrites": [
         {
-            "source": "^/api$",
+            "source": "^/replicateApi",
             "destination": "https://api.replicate.com/v1/predictions"
         },
         
         {
-            "source": "/api/:data",
+            "source": "/replicateApi/:data",
             "destination": "https://api.replicate.com/v1/predictions/:data"
         }
      ]
